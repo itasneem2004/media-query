@@ -1,0 +1,43 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:brown;
+    grid-gap: 70px 100px;
+    margin: 25px 25px;
+    padding: 20px;
+}
+
+.grid-item{
+    background-color: burlywood;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    border: 2px black solid;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    padding: 20px;
+    width: 80%;
+    height: 500px;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+.flex-item{
+    background-color: cadetblue;
+    border: solid 2px blue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
